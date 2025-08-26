@@ -778,3 +778,81 @@ footer {
 .skill-cta strong {
   color: #b87333;
 }
+/* Contact Section */
+.contact {
+  padding: 50px 10%;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.contact .heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact .heading span {
+  color: #ff4d6d;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact .input-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 30px;
+  background: #ff4d6d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact .btn:hover {
+  background: #e63c5e;
+}
+
+/* Social Icons */
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-info .social-icons a {
+  font-size: 1.8rem;
+  color: #333;
+  transition: 0.3s;
+}
+
+.contact-info .social-icons a:hover {
+  color: #ff4d6d;
+}
