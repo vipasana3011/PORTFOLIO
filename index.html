@@ -307,20 +307,26 @@
 </section>
 
 
-<!-- ================= Contact Section ================= -->
 <section class="contact" id="contact">
   <h2 class="heading">Contact <span>Me</span></h2>
 
-  <!-- Google Form Embed -->
-  <iframe 
-    src="https://docs.google.com/forms/d/e/1FAIpQLSdGHuzm9DZ3IRkF3pmgck28nqViRy_GLz5JNpx0D80decBpEg/viewform?embedded=true" 
-    width="100%" 
-    height="750" 
-    frameborder="0" 
-    marginheight="0" 
-    marginwidth="0">
-    Loading…
-  </iframe>
+  <form action="https://formspree.io/f/xjkevngg" method="POST" class="contact-form">
+    <div class="input-box">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+
+    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+    <!-- Hidden inputs -->
+    <input type="hidden" name="_subject" value="New Portfolio Message">
+    <input type="hidden" name="_replyto">
+    <input type="hidden" name="_next" value="thanks.html">
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
 
   <!-- Social Links -->
   <div class="contact-info">

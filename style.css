@@ -856,3 +856,71 @@ footer {
 .contact-info .social-icons a:hover {
   color: #ff4d6d;
 }
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.contact .heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact .heading span {
+  color: #ff6600;
+}
+
+.contact-form {
+  max-width: 650px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-form .input-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff6600;
+  box-shadow: 0 0 8px rgba(255, 102, 0, 0.3);
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .btn {
+  background: #653b20;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-form .btn:hover {
+  background: #834b26;
+61c;
+}
