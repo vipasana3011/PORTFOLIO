@@ -93,6 +93,7 @@ const animatedElements = document.querySelectorAll('.work-box, .project-item');
 window.addEventListener('scroll', () => {
   animatedElements.forEach(el => {
     const elPosition = el.getBoundingClientRect().top;
+    
     const screenPosition = window.innerHeight - 100; // trigger point
 
     if (elPosition < screenPosition) {
